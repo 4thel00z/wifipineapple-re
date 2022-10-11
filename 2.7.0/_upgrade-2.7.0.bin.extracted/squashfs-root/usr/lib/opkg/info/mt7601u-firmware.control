@@ -1,0 +1,10 @@
+Package: mt7601u-firmware
+Version: 20190416-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mt7601u-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_24kc
+Installed-Size: 26419
+Description:  MediaTek MT7601U firmware

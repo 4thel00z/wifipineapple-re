@@ -1,0 +1,10 @@
+Package: kmod-usb-net-asix
+Version: 4.14.171-1
+Depends: kernel (=4.14.171-1-f02c21315d5faf9e5dff2f3f28269f62), kmod-libphy, kmod-usb-net
+Source: package/kernel/linux
+SourceName: kmod-usb-net-asix
+License: GPL-2.0
+Section: kernel
+Architecture: mips_24kc
+Installed-Size: 11969
+Description:  Kernel module for USB-to-Ethernet Asix convertors

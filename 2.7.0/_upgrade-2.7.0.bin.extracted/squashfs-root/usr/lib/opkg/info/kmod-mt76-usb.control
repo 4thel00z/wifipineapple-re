@@ -1,0 +1,11 @@
+Package: kmod-mt76-usb
+Version: 4.14.171+2020-01-04-8a785679-1
+Depends: kernel (=4.14.171-1-f02c21315d5faf9e5dff2f3f28269f62), kmod-mac80211, kmod-usb-core, kmod-mt76-core
+Source: package/kernel/mt76
+SourceName: kmod-mt76-usb
+License: GPLv2
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_24kc
+Installed-Size: 7222
+Description:  MediaTek MT76xx wireless driver USB support
